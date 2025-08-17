@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://mango-desk-backend-unap.vercel.app/api";
+const API_BASE_URL = "https://mango-desk-backend-production.up.railway.app/api";
 
 export const generateSummary = async (transcript, prompt, file = null) => {
   try {
